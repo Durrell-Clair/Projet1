@@ -1,0 +1,81 @@
+/* Réinitialisation des marges, des rembourrages et de la bordure pour la page principale */
+html, body, .page{
+    margin: 0px;                                                        /* Pas de marge externe */
+    padding: 0px;                                                       /* Pas de marge interne */
+    height: 100%;                                                       /* Hauteur definie à la hauteur du navigateur */
+    overflow: hidden;                                                   /* Masquage des elements qui depassent */
+}
+.page{
+    border: 5px solid red;
+}
+
+/* Définition d'un style pour les images */
+.img{
+    border-radius: 50%;                                                 /* Coins arrondis pour donner une forme circulaire à l'image */
+    width: 250px;                                                       /* Largeur fixe */
+    height: 250px;                                                      /* Hauteur fixe */
+}
+
+/* Styles communs pour les éléments avec les classes 'gauche' et 'droite' */
+.gauche, .droite{
+    background-color: #CC9D3A;                             /* Couleur de fond blanc */
+    width: 50%;                                                         /* Largeur de moitié de la page */
+    padding-top: 5%;                                                    /* Marge interne en haut */
+    float: left;                                                        /* Déplacement à gauche de l'élément */
+    text-align: center;                                                 /* Alignement du texte au centre */
+    justify-content: center;                                            /* Justification horizontale au centre */
+}
+
+/* Style spécifique pour l'élément avec la classe 'droite' */
+.droite{
+    background-color: rgb(255, 255, 255);                                        /* couleur de fond jaune-orangé */
+    float: right;                                                       /* Déplacement à droite de l'élément */
+}
+
+/* Styles communs pour les éléments avec les classes 'p1' et 'p2' */
+.p1, .p2{
+    font-family: Arial, Helvetica, sans-serif;                          /* Police de caractères Arial ou similaire */
+    padding: 25px;                                                      /* Marge interne de 25px sur tous les côtés */
+    font-size: 1.5em;                                                   /* Taille de police de 1.5em */
+    color: black;                                                     /* Couleur du texte blanche */
+    text-align: center;                                                 /* Alignement du texte au centre */
+}
+
+/* Style spécifique pour l'élément avec la classe 'p1' */
+.p1{
+    font-weight: bolder;                                                /* Épaisseur de police plus marquée */
+}
+
+/* Styles pour l'élément 'i' */
+i{
+    color: black;                                                     /* Couleur du texte blanche */
+    width: 50px; /* Largeur de 50px */
+    font-size: xx-large; /* Taille de police xx-large */
+    padding: 2%;                                                        /* Marge interne de 2% sur tous les côtés */
+    padding-top: 0px;                                                   /* Marge interne de 0px en haut */
+}
+
+/* Styles communs pour les éléments avec les classes 'h1' et 'h3' */
+.h1, .h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;                   /* Police de caractères Verdana ou similaire */
+    font-size: 2.5em;                                                   /* Taille de police de 2.5em */
+    font-weight: lighter;                                               /* Épaisseur de police plus légère */
+}
+
+/* Style spécifique pour l'élément avec la classe 'h3' */
+.h3{
+    font-size: 1em;                                                     /* Taille de police de 1em */
+}
+
+/* Styles pour l'élément avec l'ID 'code' */
+#code{
+    color: black;                                                     /* Couleur du texte noire */
+    font-size: 1em;                                                     /* Taille de police de 1em */
+    margin-left: -3%;                                                   /* Marge négative à gauche pour décaler l'élément vers la gauche */
+}
+
+/* Styles pour l'élément avec la classe 'lien' */
+.lien{
+    text-decoration-line: underline;                                    /* Soulignement des liens */
+    line-height: 2;                                                     /* Hauteur de ligne de 2 */
+}
